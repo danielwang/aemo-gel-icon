@@ -1,0 +1,1459 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ojlf8o') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ojlf8o') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ojlf8o##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="gel-"], [class*=" gel-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gel-sort {
+  &:before {
+    content: $gel-sort; 
+  }
+}
+.gel-caret-up {
+  &:before {
+    content: $gel-caret-up; 
+  }
+}
+.gel-caret-right {
+  &:before {
+    content: $gel-caret-right; 
+  }
+}
+.gel-caret-left {
+  &:before {
+    content: $gel-caret-left; 
+  }
+}
+.gel-activity {
+  &:before {
+    content: $gel-activity; 
+  }
+}
+.gel-airplay {
+  &:before {
+    content: $gel-airplay; 
+  }
+}
+.gel-alert-circle {
+  &:before {
+    content: $gel-alert-circle; 
+  }
+}
+.gel-alert-octagon {
+  &:before {
+    content: $gel-alert-octagon; 
+  }
+}
+.gel-alert-triangle {
+  &:before {
+    content: $gel-alert-triangle; 
+  }
+}
+.gel-align-center {
+  &:before {
+    content: $gel-align-center; 
+  }
+}
+.gel-align-justify {
+  &:before {
+    content: $gel-align-justify; 
+  }
+}
+.gel-align-left {
+  &:before {
+    content: $gel-align-left; 
+  }
+}
+.gel-align-right {
+  &:before {
+    content: $gel-align-right; 
+  }
+}
+.gel-anchor {
+  &:before {
+    content: $gel-anchor; 
+  }
+}
+.gel-aperture {
+  &:before {
+    content: $gel-aperture; 
+  }
+}
+.gel-archive {
+  &:before {
+    content: $gel-archive; 
+  }
+}
+.gel-arrow-down {
+  &:before {
+    content: $gel-arrow-down; 
+  }
+}
+.gel-arrow-down-circle {
+  &:before {
+    content: $gel-arrow-down-circle; 
+  }
+}
+.gel-arrow-down-left {
+  &:before {
+    content: $gel-arrow-down-left; 
+  }
+}
+.gel-arrow-down-right {
+  &:before {
+    content: $gel-arrow-down-right; 
+  }
+}
+.gel-arrow-left {
+  &:before {
+    content: $gel-arrow-left; 
+  }
+}
+.gel-arrow-left-circle {
+  &:before {
+    content: $gel-arrow-left-circle; 
+  }
+}
+.gel-arrow-right {
+  &:before {
+    content: $gel-arrow-right; 
+  }
+}
+.gel-arrow-right-circle {
+  &:before {
+    content: $gel-arrow-right-circle; 
+  }
+}
+.gel-arrow-up {
+  &:before {
+    content: $gel-arrow-up; 
+  }
+}
+.gel-arrow-up-circle {
+  &:before {
+    content: $gel-arrow-up-circle; 
+  }
+}
+.gel-arrow-up-left {
+  &:before {
+    content: $gel-arrow-up-left; 
+  }
+}
+.gel-arrow-up-right {
+  &:before {
+    content: $gel-arrow-up-right; 
+  }
+}
+.gel-at-sign {
+  &:before {
+    content: $gel-at-sign; 
+  }
+}
+.gel-award {
+  &:before {
+    content: $gel-award; 
+  }
+}
+.gel-bar-chart {
+  &:before {
+    content: $gel-bar-chart; 
+  }
+}
+.gel-bar-chart-2 {
+  &:before {
+    content: $gel-bar-chart-2; 
+  }
+}
+.gel-battery {
+  &:before {
+    content: $gel-battery; 
+  }
+}
+.gel-battery-charging {
+  &:before {
+    content: $gel-battery-charging; 
+  }
+}
+.gel-bell {
+  &:before {
+    content: $gel-bell; 
+  }
+}
+.gel-bell-off {
+  &:before {
+    content: $gel-bell-off; 
+  }
+}
+.gel-bluetooth {
+  &:before {
+    content: $gel-bluetooth; 
+  }
+}
+.gel-bold {
+  &:before {
+    content: $gel-bold; 
+  }
+}
+.gel-book {
+  &:before {
+    content: $gel-book; 
+  }
+}
+.gel-book-open {
+  &:before {
+    content: $gel-book-open; 
+  }
+}
+.gel-bookmark {
+  &:before {
+    content: $gel-bookmark; 
+  }
+}
+.gel-box {
+  &:before {
+    content: $gel-box; 
+  }
+}
+.gel-briefcase {
+  &:before {
+    content: $gel-briefcase; 
+  }
+}
+.gel-calendar {
+  &:before {
+    content: $gel-calendar; 
+  }
+}
+.gel-camera {
+  &:before {
+    content: $gel-camera; 
+  }
+}
+.gel-camera-off {
+  &:before {
+    content: $gel-camera-off; 
+  }
+}
+.gel-cast {
+  &:before {
+    content: $gel-cast; 
+  }
+}
+.gel-check {
+  &:before {
+    content: $gel-check; 
+  }
+}
+.gel-check-circle {
+  &:before {
+    content: $gel-check-circle; 
+  }
+}
+.gel-check-square {
+  &:before {
+    content: $gel-check-square; 
+  }
+}
+.gel-chevron-down {
+  &:before {
+    content: $gel-chevron-down; 
+  }
+}
+.gel-chevron-left {
+  &:before {
+    content: $gel-chevron-left; 
+  }
+}
+.gel-chevron-right {
+  &:before {
+    content: $gel-chevron-right; 
+  }
+}
+.gel-chevron-up {
+  &:before {
+    content: $gel-chevron-up; 
+  }
+}
+.gel-chevrons-down {
+  &:before {
+    content: $gel-chevrons-down; 
+  }
+}
+.gel-chevrons-left {
+  &:before {
+    content: $gel-chevrons-left; 
+  }
+}
+.gel-chevrons-right {
+  &:before {
+    content: $gel-chevrons-right; 
+  }
+}
+.gel-chevrons-up {
+  &:before {
+    content: $gel-chevrons-up; 
+  }
+}
+.gel-chrome {
+  &:before {
+    content: $gel-chrome; 
+  }
+}
+.gel-circle {
+  &:before {
+    content: $gel-circle; 
+  }
+}
+.gel-clipboard {
+  &:before {
+    content: $gel-clipboard; 
+  }
+}
+.gel-clock {
+  &:before {
+    content: $gel-clock; 
+  }
+}
+.gel-cloud {
+  &:before {
+    content: $gel-cloud; 
+  }
+}
+.gel-cloud-drizzle {
+  &:before {
+    content: $gel-cloud-drizzle; 
+  }
+}
+.gel-cloud-lightning {
+  &:before {
+    content: $gel-cloud-lightning; 
+  }
+}
+.gel-cloud-off {
+  &:before {
+    content: $gel-cloud-off; 
+  }
+}
+.gel-cloud-rain {
+  &:before {
+    content: $gel-cloud-rain; 
+  }
+}
+.gel-cloud-snow {
+  &:before {
+    content: $gel-cloud-snow; 
+  }
+}
+.gel-code {
+  &:before {
+    content: $gel-code; 
+  }
+}
+.gel-codepen {
+  &:before {
+    content: $gel-codepen; 
+  }
+}
+.gel-codesandbox {
+  &:before {
+    content: $gel-codesandbox; 
+  }
+}
+.gel-coffee {
+  &:before {
+    content: $gel-coffee; 
+  }
+}
+.gel-columns {
+  &:before {
+    content: $gel-columns; 
+  }
+}
+.gel-command {
+  &:before {
+    content: $gel-command; 
+  }
+}
+.gel-compass {
+  &:before {
+    content: $gel-compass; 
+  }
+}
+.gel-copy {
+  &:before {
+    content: $gel-copy; 
+  }
+}
+.gel-corner-down-left {
+  &:before {
+    content: $gel-corner-down-left; 
+  }
+}
+.gel-corner-down-right {
+  &:before {
+    content: $gel-corner-down-right; 
+  }
+}
+.gel-corner-left-down {
+  &:before {
+    content: $gel-corner-left-down; 
+  }
+}
+.gel-corner-left-up {
+  &:before {
+    content: $gel-corner-left-up; 
+  }
+}
+.gel-corner-right-down {
+  &:before {
+    content: $gel-corner-right-down; 
+  }
+}
+.gel-corner-right-up {
+  &:before {
+    content: $gel-corner-right-up; 
+  }
+}
+.gel-corner-up-left {
+  &:before {
+    content: $gel-corner-up-left; 
+  }
+}
+.gel-corner-up-right {
+  &:before {
+    content: $gel-corner-up-right; 
+  }
+}
+.gel-cpu {
+  &:before {
+    content: $gel-cpu; 
+  }
+}
+.gel-credit-card {
+  &:before {
+    content: $gel-credit-card; 
+  }
+}
+.gel-crop {
+  &:before {
+    content: $gel-crop; 
+  }
+}
+.gel-crosshair {
+  &:before {
+    content: $gel-crosshair; 
+  }
+}
+.gel-database {
+  &:before {
+    content: $gel-database; 
+  }
+}
+.gel-delete {
+  &:before {
+    content: $gel-delete; 
+  }
+}
+.gel-disc {
+  &:before {
+    content: $gel-disc; 
+  }
+}
+.gel-dollar-sign {
+  &:before {
+    content: $gel-dollar-sign; 
+  }
+}
+.gel-download {
+  &:before {
+    content: $gel-download; 
+  }
+}
+.gel-download-cloud {
+  &:before {
+    content: $gel-download-cloud; 
+  }
+}
+.gel-droplet {
+  &:before {
+    content: $gel-droplet; 
+  }
+}
+.gel-edit {
+  &:before {
+    content: $gel-edit; 
+  }
+}
+.gel-edit-2 {
+  &:before {
+    content: $gel-edit-2; 
+  }
+}
+.gel-edit-3 {
+  &:before {
+    content: $gel-edit-3; 
+  }
+}
+.gel-external-link {
+  &:before {
+    content: $gel-external-link; 
+  }
+}
+.gel-eye {
+  &:before {
+    content: $gel-eye; 
+  }
+}
+.gel-eye-off {
+  &:before {
+    content: $gel-eye-off; 
+  }
+}
+.gel-facebook {
+  &:before {
+    content: $gel-facebook; 
+  }
+}
+.gel-fast-forward {
+  &:before {
+    content: $gel-fast-forward; 
+  }
+}
+.gel-feather {
+  &:before {
+    content: $gel-feather; 
+  }
+}
+.gel-figma {
+  &:before {
+    content: $gel-figma; 
+  }
+}
+.gel-file {
+  &:before {
+    content: $gel-file; 
+  }
+}
+.gel-file-minus {
+  &:before {
+    content: $gel-file-minus; 
+  }
+}
+.gel-file-plus {
+  &:before {
+    content: $gel-file-plus; 
+  }
+}
+.gel-file-text {
+  &:before {
+    content: $gel-file-text; 
+  }
+}
+.gel-film {
+  &:before {
+    content: $gel-film; 
+  }
+}
+.gel-filter {
+  &:before {
+    content: $gel-filter; 
+  }
+}
+.gel-flag {
+  &:before {
+    content: $gel-flag; 
+  }
+}
+.gel-folder {
+  &:before {
+    content: $gel-folder; 
+  }
+}
+.gel-folder-minus {
+  &:before {
+    content: $gel-folder-minus; 
+  }
+}
+.gel-folder-plus {
+  &:before {
+    content: $gel-folder-plus; 
+  }
+}
+.gel-framer {
+  &:before {
+    content: $gel-framer; 
+  }
+}
+.gel-frown {
+  &:before {
+    content: $gel-frown; 
+  }
+}
+.gel-gift {
+  &:before {
+    content: $gel-gift; 
+  }
+}
+.gel-git-branch {
+  &:before {
+    content: $gel-git-branch; 
+  }
+}
+.gel-git-commit {
+  &:before {
+    content: $gel-git-commit; 
+  }
+}
+.gel-git-merge {
+  &:before {
+    content: $gel-git-merge; 
+  }
+}
+.gel-git-pull-request {
+  &:before {
+    content: $gel-git-pull-request; 
+  }
+}
+.gel-github {
+  &:before {
+    content: $gel-github; 
+  }
+}
+.gel-gitlab {
+  &:before {
+    content: $gel-gitlab; 
+  }
+}
+.gel-globe {
+  &:before {
+    content: $gel-globe; 
+  }
+}
+.gel-grid {
+  &:before {
+    content: $gel-grid; 
+  }
+}
+.gel-hard-drive {
+  &:before {
+    content: $gel-hard-drive; 
+  }
+}
+.gel-hash {
+  &:before {
+    content: $gel-hash; 
+  }
+}
+.gel-headphones {
+  &:before {
+    content: $gel-headphones; 
+  }
+}
+.gel-heart {
+  &:before {
+    content: $gel-heart; 
+  }
+}
+.gel-help-circle {
+  &:before {
+    content: $gel-help-circle; 
+  }
+}
+.gel-hexagon {
+  &:before {
+    content: $gel-hexagon; 
+  }
+}
+.gel-home {
+  &:before {
+    content: $gel-home; 
+  }
+}
+.gel-image {
+  &:before {
+    content: $gel-image; 
+  }
+}
+.gel-inbox {
+  &:before {
+    content: $gel-inbox; 
+  }
+}
+.gel-info {
+  &:before {
+    content: $gel-info; 
+  }
+}
+.gel-instagram {
+  &:before {
+    content: $gel-instagram; 
+  }
+}
+.gel-italic {
+  &:before {
+    content: $gel-italic; 
+  }
+}
+.gel-key {
+  &:before {
+    content: $gel-key; 
+  }
+}
+.gel-layers {
+  &:before {
+    content: $gel-layers; 
+  }
+}
+.gel-layout {
+  &:before {
+    content: $gel-layout; 
+  }
+}
+.gel-life-buoy {
+  &:before {
+    content: $gel-life-buoy; 
+  }
+}
+.gel-link {
+  &:before {
+    content: $gel-link; 
+  }
+}
+.gel-link-2 {
+  &:before {
+    content: $gel-link-2; 
+  }
+}
+.gel-linkedin {
+  &:before {
+    content: $gel-linkedin; 
+  }
+}
+.gel-list {
+  &:before {
+    content: $gel-list; 
+  }
+}
+.gel-loader {
+  &:before {
+    content: $gel-loader; 
+  }
+}
+.gel-lock {
+  &:before {
+    content: $gel-lock; 
+  }
+}
+.gel-log-in {
+  &:before {
+    content: $gel-log-in; 
+  }
+}
+.gel-log-out {
+  &:before {
+    content: $gel-log-out; 
+  }
+}
+.gel-mail {
+  &:before {
+    content: $gel-mail; 
+  }
+}
+.gel-map {
+  &:before {
+    content: $gel-map; 
+  }
+}
+.gel-map-pin {
+  &:before {
+    content: $gel-map-pin; 
+  }
+}
+.gel-maximize {
+  &:before {
+    content: $gel-maximize; 
+  }
+}
+.gel-maximize-2 {
+  &:before {
+    content: $gel-maximize-2; 
+  }
+}
+.gel-meh {
+  &:before {
+    content: $gel-meh; 
+  }
+}
+.gel-menu {
+  &:before {
+    content: $gel-menu; 
+  }
+}
+.gel-message-circle {
+  &:before {
+    content: $gel-message-circle; 
+  }
+}
+.gel-message-square {
+  &:before {
+    content: $gel-message-square; 
+  }
+}
+.gel-mic {
+  &:before {
+    content: $gel-mic; 
+  }
+}
+.gel-mic-off {
+  &:before {
+    content: $gel-mic-off; 
+  }
+}
+.gel-minimize {
+  &:before {
+    content: $gel-minimize; 
+  }
+}
+.gel-minimize-2 {
+  &:before {
+    content: $gel-minimize-2; 
+  }
+}
+.gel-minus {
+  &:before {
+    content: $gel-minus; 
+  }
+}
+.gel-minus-circle {
+  &:before {
+    content: $gel-minus-circle; 
+  }
+}
+.gel-minus-square {
+  &:before {
+    content: $gel-minus-square; 
+  }
+}
+.gel-monitor {
+  &:before {
+    content: $gel-monitor; 
+  }
+}
+.gel-moon {
+  &:before {
+    content: $gel-moon; 
+  }
+}
+.gel-more-horizontal {
+  &:before {
+    content: $gel-more-horizontal; 
+  }
+}
+.gel-more-vertical {
+  &:before {
+    content: $gel-more-vertical; 
+  }
+}
+.gel-mouse-pointer {
+  &:before {
+    content: $gel-mouse-pointer; 
+  }
+}
+.gel-move {
+  &:before {
+    content: $gel-move; 
+  }
+}
+.gel-music {
+  &:before {
+    content: $gel-music; 
+  }
+}
+.gel-navigation {
+  &:before {
+    content: $gel-navigation; 
+  }
+}
+.gel-navigation-2 {
+  &:before {
+    content: $gel-navigation-2; 
+  }
+}
+.gel-octagon {
+  &:before {
+    content: $gel-octagon; 
+  }
+}
+.gel-package {
+  &:before {
+    content: $gel-package; 
+  }
+}
+.gel-paperclip {
+  &:before {
+    content: $gel-paperclip; 
+  }
+}
+.gel-pause {
+  &:before {
+    content: $gel-pause; 
+  }
+}
+.gel-pause-circle {
+  &:before {
+    content: $gel-pause-circle; 
+  }
+}
+.gel-pen-tool {
+  &:before {
+    content: $gel-pen-tool; 
+  }
+}
+.gel-percent {
+  &:before {
+    content: $gel-percent; 
+  }
+}
+.gel-phone {
+  &:before {
+    content: $gel-phone; 
+  }
+}
+.gel-phone-call {
+  &:before {
+    content: $gel-phone-call; 
+  }
+}
+.gel-phone-forwarded {
+  &:before {
+    content: $gel-phone-forwarded; 
+  }
+}
+.gel-phone-incoming {
+  &:before {
+    content: $gel-phone-incoming; 
+  }
+}
+.gel-phone-missed {
+  &:before {
+    content: $gel-phone-missed; 
+  }
+}
+.gel-phone-off {
+  &:before {
+    content: $gel-phone-off; 
+  }
+}
+.gel-phone-outgoing {
+  &:before {
+    content: $gel-phone-outgoing; 
+  }
+}
+.gel-pie-chart {
+  &:before {
+    content: $gel-pie-chart; 
+  }
+}
+.gel-play {
+  &:before {
+    content: $gel-play; 
+  }
+}
+.gel-play-circle {
+  &:before {
+    content: $gel-play-circle; 
+  }
+}
+.gel-plus {
+  &:before {
+    content: $gel-plus; 
+  }
+}
+.gel-plus-circle {
+  &:before {
+    content: $gel-plus-circle; 
+  }
+}
+.gel-plus-square {
+  &:before {
+    content: $gel-plus-square; 
+  }
+}
+.gel-pocket {
+  &:before {
+    content: $gel-pocket; 
+  }
+}
+.gel-power {
+  &:before {
+    content: $gel-power; 
+  }
+}
+.gel-printer {
+  &:before {
+    content: $gel-printer; 
+  }
+}
+.gel-radio {
+  &:before {
+    content: $gel-radio; 
+  }
+}
+.gel-refresh-ccw {
+  &:before {
+    content: $gel-refresh-ccw; 
+  }
+}
+.gel-refresh-cw {
+  &:before {
+    content: $gel-refresh-cw; 
+  }
+}
+.gel-repeat {
+  &:before {
+    content: $gel-repeat; 
+  }
+}
+.gel-rewind {
+  &:before {
+    content: $gel-rewind; 
+  }
+}
+.gel-rotate-ccw {
+  &:before {
+    content: $gel-rotate-ccw; 
+  }
+}
+.gel-rotate-cw {
+  &:before {
+    content: $gel-rotate-cw; 
+  }
+}
+.gel-rss {
+  &:before {
+    content: $gel-rss; 
+  }
+}
+.gel-save {
+  &:before {
+    content: $gel-save; 
+  }
+}
+.gel-scissors {
+  &:before {
+    content: $gel-scissors; 
+  }
+}
+.gel-search {
+  &:before {
+    content: $gel-search; 
+  }
+}
+.gel-send {
+  &:before {
+    content: $gel-send; 
+  }
+}
+.gel-server {
+  &:before {
+    content: $gel-server; 
+  }
+}
+.gel-settings {
+  &:before {
+    content: $gel-settings; 
+  }
+}
+.gel-share {
+  &:before {
+    content: $gel-share; 
+  }
+}
+.gel-share-2 {
+  &:before {
+    content: $gel-share-2; 
+  }
+}
+.gel-shield {
+  &:before {
+    content: $gel-shield; 
+  }
+}
+.gel-shield-off {
+  &:before {
+    content: $gel-shield-off; 
+  }
+}
+.gel-shopping-bag {
+  &:before {
+    content: $gel-shopping-bag; 
+  }
+}
+.gel-shopping-cart {
+  &:before {
+    content: $gel-shopping-cart; 
+  }
+}
+.gel-shuffle {
+  &:before {
+    content: $gel-shuffle; 
+  }
+}
+.gel-sidebar {
+  &:before {
+    content: $gel-sidebar; 
+  }
+}
+.gel-skip-back {
+  &:before {
+    content: $gel-skip-back; 
+  }
+}
+.gel-skip-forward {
+  &:before {
+    content: $gel-skip-forward; 
+  }
+}
+.gel-slack {
+  &:before {
+    content: $gel-slack; 
+  }
+}
+.gel-slash {
+  &:before {
+    content: $gel-slash; 
+  }
+}
+.gel-sliders {
+  &:before {
+    content: $gel-sliders; 
+  }
+}
+.gel-smartphone {
+  &:before {
+    content: $gel-smartphone; 
+  }
+}
+.gel-smile {
+  &:before {
+    content: $gel-smile; 
+  }
+}
+.gel-speaker {
+  &:before {
+    content: $gel-speaker; 
+  }
+}
+.gel-square {
+  &:before {
+    content: $gel-square; 
+  }
+}
+.gel-star {
+  &:before {
+    content: $gel-star; 
+  }
+}
+.gel-stop-circle {
+  &:before {
+    content: $gel-stop-circle; 
+  }
+}
+.gel-sun {
+  &:before {
+    content: $gel-sun; 
+  }
+}
+.gel-sunrise {
+  &:before {
+    content: $gel-sunrise; 
+  }
+}
+.gel-sunset {
+  &:before {
+    content: $gel-sunset; 
+  }
+}
+.gel-tablet {
+  &:before {
+    content: $gel-tablet; 
+  }
+}
+.gel-tag {
+  &:before {
+    content: $gel-tag; 
+  }
+}
+.gel-target {
+  &:before {
+    content: $gel-target; 
+  }
+}
+.gel-terminal {
+  &:before {
+    content: $gel-terminal; 
+  }
+}
+.gel-thermometer {
+  &:before {
+    content: $gel-thermometer; 
+  }
+}
+.gel-thumbs-down {
+  &:before {
+    content: $gel-thumbs-down; 
+  }
+}
+.gel-thumbs-up {
+  &:before {
+    content: $gel-thumbs-up; 
+  }
+}
+.gel-toggle-left {
+  &:before {
+    content: $gel-toggle-left; 
+  }
+}
+.gel-toggle-right {
+  &:before {
+    content: $gel-toggle-right; 
+  }
+}
+.gel-tool {
+  &:before {
+    content: $gel-tool; 
+  }
+}
+.gel-trash {
+  &:before {
+    content: $gel-trash; 
+  }
+}
+.gel-trash-2 {
+  &:before {
+    content: $gel-trash-2; 
+  }
+}
+.gel-trello {
+  &:before {
+    content: $gel-trello; 
+  }
+}
+.gel-trending-down {
+  &:before {
+    content: $gel-trending-down; 
+  }
+}
+.gel-trending-up {
+  &:before {
+    content: $gel-trending-up; 
+  }
+}
+.gel-triangle {
+  &:before {
+    content: $gel-triangle; 
+  }
+}
+.gel-truck {
+  &:before {
+    content: $gel-truck; 
+  }
+}
+.gel-tv {
+  &:before {
+    content: $gel-tv; 
+  }
+}
+.gel-twitch {
+  &:before {
+    content: $gel-twitch; 
+  }
+}
+.gel-twitter {
+  &:before {
+    content: $gel-twitter; 
+  }
+}
+.gel-type {
+  &:before {
+    content: $gel-type; 
+  }
+}
+.gel-umbrella {
+  &:before {
+    content: $gel-umbrella; 
+  }
+}
+.gel-underline {
+  &:before {
+    content: $gel-underline; 
+  }
+}
+.gel-unlock {
+  &:before {
+    content: $gel-unlock; 
+  }
+}
+.gel-upload {
+  &:before {
+    content: $gel-upload; 
+  }
+}
+.gel-upload-cloud {
+  &:before {
+    content: $gel-upload-cloud; 
+  }
+}
+.gel-user {
+  &:before {
+    content: $gel-user; 
+  }
+}
+.gel-user-check {
+  &:before {
+    content: $gel-user-check; 
+  }
+}
+.gel-user-minus {
+  &:before {
+    content: $gel-user-minus; 
+  }
+}
+.gel-user-plus {
+  &:before {
+    content: $gel-user-plus; 
+  }
+}
+.gel-user-x {
+  &:before {
+    content: $gel-user-x; 
+  }
+}
+.gel-users {
+  &:before {
+    content: $gel-users; 
+  }
+}
+.gel-video {
+  &:before {
+    content: $gel-video; 
+  }
+}
+.gel-video-off {
+  &:before {
+    content: $gel-video-off; 
+  }
+}
+.gel-voicemail {
+  &:before {
+    content: $gel-voicemail; 
+  }
+}
+.gel-volume {
+  &:before {
+    content: $gel-volume; 
+  }
+}
+.gel-volume-1 {
+  &:before {
+    content: $gel-volume-1; 
+  }
+}
+.gel-volume-2 {
+  &:before {
+    content: $gel-volume-2; 
+  }
+}
+.gel-volume-x {
+  &:before {
+    content: $gel-volume-x; 
+  }
+}
+.gel-watch {
+  &:before {
+    content: $gel-watch; 
+  }
+}
+.gel-wifi {
+  &:before {
+    content: $gel-wifi; 
+  }
+}
+.gel-wifi-off {
+  &:before {
+    content: $gel-wifi-off; 
+  }
+}
+.gel-wind {
+  &:before {
+    content: $gel-wind; 
+  }
+}
+.gel-x {
+  &:before {
+    content: $gel-x; 
+  }
+}
+.gel-x-circle {
+  &:before {
+    content: $gel-x-circle; 
+  }
+}
+.gel-x-octagon {
+  &:before {
+    content: $gel-x-octagon; 
+  }
+}
+.gel-x-square {
+  &:before {
+    content: $gel-x-square; 
+  }
+}
+.gel-youtube {
+  &:before {
+    content: $gel-youtube; 
+  }
+}
+.gel-zap {
+  &:before {
+    content: $gel-zap; 
+  }
+}
+.gel-zap-off {
+  &:before {
+    content: $gel-zap-off; 
+  }
+}
+.gel-zoom-in {
+  &:before {
+    content: $gel-zoom-in; 
+  }
+}
+.gel-zoom-out {
+  &:before {
+    content: $gel-zoom-out; 
+  }
+}
+
